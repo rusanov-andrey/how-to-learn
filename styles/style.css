@@ -1,6 +1,9 @@
 @import url(./normalize.css);
 
 .page {
+  margin:0;
+  padding: 0;
+
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -29,6 +32,8 @@
 }
 
 .header {
+  margin:0;
+  padding: 0;
   height: 100vh;
   /*min-height: 600px;*/
   min-height: 632px;
@@ -40,6 +45,9 @@
 }
 .header__title
 {
+  margin:0;
+  padding: 0;
+
   margin-left: 64px;
   margin-top: auto;
   margin-bottom: auto;
@@ -53,6 +61,9 @@
 }
 .header__subtitle
 {
+  margin:0;
+  padding: 0;
+
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -65,10 +76,16 @@
 }
 .header__link
 {
+  margin:0;
+  padding: 0;
+
   text-decoration: none;
 }
 .header__main-illustration
 {
+  margin:0;
+  padding: 0;
+
   width: 765px;
   height: 608px;
 
@@ -176,6 +193,9 @@
 }
 .footer__column-heading
 {
+  margin:0;
+  padding: 0;
+
   color: white;
 
   line-height: 30px;
@@ -184,6 +204,9 @@
 }
 .footer__column-links
 {
+  margin:0;
+  padding: 0;
+
   margin-top: 20px;
   margin-bottom: 16px;
 
@@ -193,6 +216,9 @@
 }
 .footer__column-link
 {
+  margin:0;
+  padding: 0;
+
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
