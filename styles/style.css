@@ -45,7 +45,6 @@
 }
 .header__title
 {
-  margin:0;
   padding: 0;
 
   margin-left: 64px;
@@ -117,12 +116,124 @@
 
 .digits
 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 100px 0;
 
 }
+.section-title_theme_white
+{
+  color: black;
+  width: 60%;
+  margin: 0 auto;
+
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-subtitle_theme_white
+{
+  color: black;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table_theme_white
+{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1100px;
+
+  justify-content: space-between;
+}
+.table__cell_theme_white 
+{
+  width: 250px;
+  color: black;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 60px;
+}
+.table__heading_theme_white
+{
+  color: black;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.table__text_theme_white
+{
+  color: black;
+
+  margin-top: 20px;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 
 .feynman
 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
 
+  height: 890px;
+
+  background-image: url(../images/feynman.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+
+  padding-top: 100px;
+}
+.feynman__title
+{
+  width: 648px;
+  margin: 0 auto;
+
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+.feynman__subtitle
+{
+  margin-top: 70px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.feynman__link
+{
+  position: absolute;
+  right: 48px;
+  top: 50%;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .kaufman
@@ -166,6 +277,7 @@
   color: white;
   width: 60%;
   margin-top: 20px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
 
