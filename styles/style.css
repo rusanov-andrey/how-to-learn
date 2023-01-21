@@ -257,13 +257,12 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 867px 637px;
-
-  padding-top: 100px;
 }
 .feynman__title
 {
   width: 648px;
   margin: 0 auto;
+  margin-top: 100px;
 
   text-align: center;
   line-height: 1.15;
