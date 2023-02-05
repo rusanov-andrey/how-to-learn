@@ -39,6 +39,8 @@
 
   display: flex;
   position: relative;
+
+  overflow: hidden;
 }
 .header__title
 {
