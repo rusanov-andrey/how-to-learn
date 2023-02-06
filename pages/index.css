@@ -11,3 +11,6 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/iframes/iframes.css);
