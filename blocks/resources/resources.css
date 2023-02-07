@@ -1,0 +1,10 @@
+.resources
+{
+    margin: 0;
+    padding: 100px 0 217px;
+    
+    display: flex;
+    position: relative;
+
+    flex-direction: column;
+}
