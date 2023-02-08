@@ -8,8 +8,6 @@
     flex-direction: column;
 
     width: 240px;
-
-    flex-direction: column;
 }
 
 .cards__item:nth-of-type(3)
