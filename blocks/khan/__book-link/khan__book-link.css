@@ -9,4 +9,9 @@
     font-weight: normal;
 
     text-decoration: none;
+    transition: opacity 2s linear 0.5s;
+}
+.khan__book-link:hover
+{
+    opacity: 25%
 }
