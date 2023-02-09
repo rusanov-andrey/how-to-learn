@@ -3,4 +3,6 @@
   min-height: 350px;
   display: flex;
   position: relative;
+
+  background-color: #1f1f1f;
 }

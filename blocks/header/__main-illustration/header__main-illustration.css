@@ -1,6 +1,6 @@
 .header__main-illustration
 {
-  margin:0;
+  margin: 0;
   padding: 0;
 
   width: 765px;
@@ -11,4 +11,7 @@
   right: 0px;
 
   margin-top: auto;
+
+  object-fit: cover;
+  object-position: top;
 }
