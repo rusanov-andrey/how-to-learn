@@ -2,6 +2,7 @@
 {
     margin: 0 auto;
     padding: 0;
+    list-style-type: none;
     
     display: flex;
     position: relative;
